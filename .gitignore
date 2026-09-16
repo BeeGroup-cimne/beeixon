@@ -1,0 +1,27 @@
+*.pyc
+
+# Packages
+*.egg
+!/tests/**/*.egg
+/*.egg-info
+/dist/*
+build
+_build
+.cache
+*.so
+venv
+# IDE
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+# Configuration files
+config.json
+
+# Coverage
+.coverage
+
+# Credentials
+*.env
+*.nc4
